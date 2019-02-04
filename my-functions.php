@@ -47,7 +47,7 @@ function films_library_init() {
 add_action('init', 'create_taxonomy');
 function create_taxonomy(){
 	register_taxonomy('taxonomy', array('cinema'), array(
-		'label'                 => '', // определяется параметром $labels->name
+		'label'                 => '', 
 		'labels'                => array(
 			'name'              => 'Жанры',
 			'singular_name'     => 'Жанр',
